@@ -37,7 +37,7 @@ function cubes(n){
 
 function sumOfSomething(a,b,callback){
     console.log(callback);
-    return callback(a)+callback(b);                                                   //callback function                                           
+    return callback(a)+callback(b);                                           //callback function                                           
 }
 
 console.log(sumOfSomething(1,2,squares));
