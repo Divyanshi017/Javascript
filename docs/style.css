@@ -11,7 +11,8 @@ body{
     background: #c8e9f4;
 }
 .quote-box{
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     padding: 30px;
     background: #fff;
     position: absolute;
