@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: 'Indie Flower', cursive;
+    font-family: "Playfair", serif;
 }
 body{
     background: #c8e9f4;
