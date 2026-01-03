@@ -4,7 +4,11 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
+@media (max-width: 640px) {
+    textarea, .row {
+        width: 90%; /* Makes the box fit on phone screens */
+    }
+}
 .hero{
     width: 100%;
     min-height: 100vh;
