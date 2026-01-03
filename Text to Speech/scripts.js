@@ -3,7 +3,7 @@ let voiceSelect = document.querySelector("select");
 
 // Populate the voice list
 window.speechSynthesis.onvoiceschanged = () => {
-    voices = window.speechSynthesis.getVoices();
+    const voices = window.speechSynthesis.getVoices();
     voiceSelect.innerHTML = ''; // Clear existing to prevent duplicates
     
     voices.forEach((voice, i) => {
